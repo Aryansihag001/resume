@@ -1,0 +1,288 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'poppins',sans-serif ;
+}
+
+body
+{
+color:rgb(209, 215, 215);
+ background: url(./paul-volkmer-fX-qWsXl5x8-unsplash.jpg); 
+}
+
+.header{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 10px;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+}
+
+.logo{
+    position: relative;
+    font-size: 35px;
+    color: rgb(230, 229, 232);
+    text-decoration:wavy;
+    font-weight: 650;
+    cursor: default;
+    opacity: 25%;
+    animation:reverse;
+
+}
+.navbar a{
+    display: inline-block;
+    font-size: 25px;
+    color: rgb(240, 234, 234);
+    text-decoration: solid;
+    font-weight: 500;
+    margin-left: 40px;
+    transition:.3s;
+    border-radius: 500px;
+    padding: 4px;
+    border-width: 2px;
+    letter-spacing: 1px;
+    border: 2px solid rgb(228, 15, 15);
+    
+}
+.navbar a:hover{
+    background: rgb(228, 15, 15) ;
+    box-shadow: 0 0 20px rgb(228, 29, 15);
+}
+.Home{
+position: relative;
+
+width: 100%;
+justify-content: space-between;
+height: 100vh;
+ background: url(./paul-volkmer-fX-qWsXl5x8-unsplash.jpg)no-repeat; 
+background-size: cover;
+background-position: center;
+display: flex;
+align-items:center;
+padding: 70px 10px 0;
+}
+
+.first-image{
+    padding-right: 80px;
+
+}
+
+/* .first-image{
+    
+} */
+
+.Home-content{
+    max-width: 600px;
+    padding: 3cm;
+    border-radius: 50px;
+    transition: background 0.5s,transform 0.5s;
+    box-shadow: 1px 1px 20px rgb(223, 10, 10);
+}
+
+.Home-content h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.Home-content h3 span{
+    color:rgb(228, 43, 15);
+}
+
+.Home-content h1{
+    font-size: 34px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+.Home-content p{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.Home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;  
+    /* background:rgb(15, 217, 228); */
+    border: 2px solid rgb(228, 15, 15);
+    border-radius:50%;
+    font-size: 35px;
+    color: rgb(189, 186, 186);
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+     transition: .4s;
+}
+   
+
+.Home-sci a:hover{
+    background: rgb(228, 43, 15);
+    box-shadow: 0 0 30px rgb(228, 51, 15);
+}
+.btw-box {
+    text-decoration: none;
+    color: rgb(189, 186, 186);;
+    font-size: 30px;
+    margin-left: .1cm;
+    border: 2px solid rgb(228, 51, 15);
+    border-radius:500px;
+    padding: 4px;
+    border-width: 3px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    transition: .4s;  
+}
+.btw-box:hover{
+    background: rgb(228, 43, 15);
+    box-shadow: 0 0 20px rgb(228, 51, 15);
+}
+.about{
+    display: grid;
+    align-items: center;
+   grid-template-columns: repeat(2,1fr); 
+    gap: 2.5rem;
+    padding-left: 5cm;
+
+}
+.about-img img{
+    padding-bottom: 20%;
+    max-width: 630px;
+    height: auto;
+    width: 55%;
+    border-radius: 8px;
+}
+
+.about-text{
+    background-color: transparent;
+  
+    font-size: 10px;
+    font-weight: 13px;
+    text-align: center;
+    margin-right: 2cm;
+    border-radius: 50px;
+    transition: background 0.5s,transform 0.5s;
+    box-shadow: 1px 1px 20px rgb(223, 10, 10);
+}
+
+
+
+.about-text h2{
+    font-size: 60px;
+}
+.about-text h2 span{
+    color: rgb(228, 51, 15);
+}
+.about-text p{
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 30px;
+}
+.more-about-me{
+    padding-top: 70cm;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(189, 186, 186);;
+    margin-left: .1cm;
+    margin-top: 10px;
+    border: 2px solid rgb(228, 51, 15);
+    border-radius:500px;
+    padding: 4px;
+    border-width: 3px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    transition: .4s;  
+}
+.more-about-me:hover{
+    background: rgb(228, 43, 15);
+    box-shadow: 0 0 20px rgb(228, 51, 15);
+
+}
+.about-text h4{
+    font-size: 29px;
+    font-weight: 600;
+    color: aliceblue;
+    line-height: 1.4;
+    margin: 15px 0 30px;
+}
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.container1{
+    width: 600px;
+    height: 500px;
+    padding: 75px 90px;
+    margin-left: 120px;
+}
+.heading1{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    margin-bottom: 50px;
+}
+.bars{
+    font-size: 23px;
+    font-weight: 600;
+}
+.Technical-bars .bars{
+margin-top: 40px 0;
+}
+.Technical-bars.bars:first-child{
+    margin-top: 0 ;
+}
+.Technical-bars.bars:last-child{
+    margin-bottom: 0 ;
+}
+.Technical-bars.bars.info{
+     margin-bottom: 5px;
+}
+.Technical-bars .bars.info span{
+    margin-bottom: 17px;
+    font-weight: 500;
+    animation: showText 0.5s linear forwards;
+    opacity: 0;
+}
+.Technical-bars .bar .progress-line{
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height: 5px;
+    background-color: rgb(228, 43, 15);
+    animation: animate 1s cubic-bezier(1,0,0,5,1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+ @keyframes animate{  /* animation k alg alg state ko define kerne k liye hotta ha ki 0.5s p kya hoga 1s p kya hoga */
+100%{
+    transform: scaleX(1);
+}
+}
+.Technical-bars .bars .progress-line span{
+    height: 100%;
+    background-color:  rgb(228, 43, 15);
+    position: absolute;
+    border-radius: 10px;
+    animation: animate 1s 1s cubic-bezier(1,0,0,5,1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+.progress-line.html span{
+    width: 90%;
+}
+.progress-line.css span{
+    width: 73%;
+}
+.progress-line.Javascript span{
+    width: 55%;
+}
+.progress-line.Python span{
+    width: 80%;
+}
